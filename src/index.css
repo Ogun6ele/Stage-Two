@@ -1,0 +1,42 @@
+@tailwind base;
+
+@layer base {
+    h1 {
+      @apply text-sm;
+      @apply underline;
+      @apply font-bold;
+      @apply md:tracking-[0.5rem];
+      @apply tracking-tight;
+      @apply md:text-2xl
+    }
+    h2 {
+      @apply text-sm;
+      @apply font-bold;
+      @apply md:text-2xl;
+    }
+    h3 {
+      @apply text-sm;
+      @apply font-medium;
+      @apply md:text-xl;
+    }
+    p {
+      @apply text-sm;
+      @apply font-normal;
+      @apply md:text-xl;
+    }
+
+    a:active {
+      @apply text-btnGreen;
+    }
+    li{
+      @apply text-sm;
+      @apply md:text-xl;
+    }
+    
+    span{
+      @apply text-span;
+    }
+  }
+  
+@tailwind components;
+@tailwind utilities;
