@@ -14,7 +14,11 @@ export default {
       span: '#19742C',
       black: '#000000',
       footer: '#9D9D9D',
-    }
+    },
+
+    fontFamily: {
+        muellerhoff: ['"Herr Von Muellerhoff"', 'cursive'],
+      },
   },
   plugins: [],
 }
